@@ -123,12 +123,17 @@ img.animate{
     filter: none;}
 }
 
-@keyframes colorize{
+/*@keyframes colorize{
     0% {background-color:#007aff; color: white}
     25% {background-color:#ff3b30; color: white}
     50% {background-color:#ffcc00; color: white}
     75% {background-color:#4cd964; color: white}
     100% {background-color:#5856d6; color: white}
+}*/
+
+@keyframes colorize{
+    from {background-color:#4c4c4c; color: white}
+    to{background-color:#4c4c4c; color: white}
 }
 
 @keyframes balloonSlide{
